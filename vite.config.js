@@ -7,6 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         // AUTO-GENERATED VITE INPUT START
+        hello_svelte: 'hello-svelte.html',
         // AUTO-GENERATED VITE INPUT END
       },
     },
