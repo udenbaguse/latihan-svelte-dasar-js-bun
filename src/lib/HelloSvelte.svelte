@@ -1,5 +1,5 @@
 <script>
-  console.log("Hello Svelte")
+  const name = 'Syam';
 </script>
 
 <style>
@@ -8,4 +8,4 @@
   }
 </style>
 
-<h1>Hello Svelte</h1>
+<h1>Hello {name.toUpperCase()}!</h1>
